@@ -183,12 +183,11 @@ h2{
     font-size: 50px;
     margin-bottom: 20px;
 }
-.service span{
-    height: 100px;
-    width: 200px;
+.orange{
     background-color:#FF5B37;
     padding: 10px;
-    transform: skewX(-45deg);
+    transform: skewX(-10deg);
+    display: inline-block;
 }
 .heading_part{
     font-size: 22px;
@@ -267,12 +266,11 @@ h2{
     font-size: 20px;
 }
 .rectangle{
-    height: 53.86px;
-    width: 192px;
     background-color: var(--red);
     color: var(--white);
-    padding-left: 10px;
+    padding: 10px;
     transform: skewX(-10deg);
+    display: inline-block;
 }
 .choose h2{
     text-align: center;
@@ -335,13 +333,6 @@ h2{
 }
 .work2 h2{
     text-align: center;
-}
-.red_backg{
-    background-color: var(--red);
-    color: var(--white);
-    text-align: center;
-    padding:5px 10px;
-    transform: rotate(-45deg);
 }
 .work2 p{
     text-align: center;
@@ -674,7 +665,7 @@ h2{
     margin-top: 30px;
 }
 .question{
-    background-color: var(--black);
+    background-color: var(--red);
     color: var(--white);
 }
 .question h2{
@@ -698,11 +689,35 @@ h2{
     padding:10px;
     margin-left: 30px;
 }
+.addCard1,.white{
+    margin: 0 10px;
+    font-size: 20px;
+}
+.red1{
+  font-size: 45px;
+  background-color: var(--black);
+  color: var(--red);
+  padding: 15px;
+}
+.red2{
+    font-size: 50px;
+    color: var(--red);
+    background-color: var(--black);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.white1{
+    color: var(--white);
+    padding-top: 20px;
+}
 .red{
     color: var(--red);
-    font-size: 30px;
+    font-size: 50px;
     background-color: var(--black);
     padding: 10px;
+    margin-left: 20px;
+    /* margin-bottom: 30px; */
 }
 .contact2{
     display: flex;
@@ -746,8 +761,13 @@ h2{
 }
 .same3 button{
     border-radius: 30px;
-    padding: 20px 30px;
+    padding: 20px 20px;
     border: none;
     margin-top: 30px;
     align-items: center;
+    font-size: 15px;
+    color: var(--textcolor);
+}
+.same3 button span{
+    padding-left: 60px;
 }
